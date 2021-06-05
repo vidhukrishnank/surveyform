@@ -1,0 +1,50 @@
+body {
+align-text: center;
+background-image: linear-gradient(270deg, #9921e8 0%, #5f72be 80%);
+
+
+}
+#main {
+  display: flex;
+  justify-content: center;
+  margin: 75px 75px 75px 75px;
+  box-shadow: 1px 1px 10px black;
+  padding: 20px;
+}
+#left {
+  margin: auto;
+  aligni-tems: center;
+  
+}
+#survey-form {
+  margin: auto;
+  
+  align-items: center;
+}
+#vl {
+  border-left: 1px solid black;
+  height: 400px;
+  margin: auto;
+  filter: blur(0.5px);
+}
+.label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  text-align: left;
+  width: 60px;
+  padding: 10px;
+}
+input {
+ display: inline-block;
+ float: left;
+ padding: 10px;
+}
+.padding {
+  padding: 60px;
+  
+}
+h1{
+  font-family: sans-serif, serif;
+  
+}

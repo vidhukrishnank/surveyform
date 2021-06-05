@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id= "main">
+   <div id= "left">
+      
+       <h1 id="title">TEK survey form</h1>
+      
+        <p id="description">Would you like to take part in this survey, this will only take 5 minutes</p></div>
+        <div id="vl"></div>
+
+   <form id="survey-form">
+      
+        <label class= "label" id="name-label" for= "name">Name</label>
+          <input id= "name" type= "text" placeholder= "your full name" required><br>
+         <label class= "label" id= "email-label">E-mail</label>
+          <input id= "email" type= "email" placeholder= "your email" required><br>
+         <label class= "label" id="number-label">Age</label>
+          <input id="number" type= "number" placeholder= "your age" min="13" max="100"><br>
+    
+        <div>  <label class= "label">Gender</label>
+           <label class= "padding" for= "female">             <input  id= "female" type= "radio" name= "gender" value="female">Female</label><br>
+           <label for= "male">
+            <input id= "male" type= "radio" name= "gender" value="male">Male</label><br>
+           <label for= "other">
+            <input id= "other" type= "radio" name= "gender" value="other">Other</label><br><br></div>
+           
+           <div><p>How often do you visit this website ?</p>
+             <select id="dropdown" name="role" required><option disabled selected value>Select for options</option>
+               <option value="daily">Daily</option>
+               <option value="weekly">Weekly</option>
+               <option value="monthly">Monthly</option><br><br></select></div>
+        <div><p> Reason for visiting the website</p>
+          <label><input type= "checkbox" name="purpose" value="Entertainment">Entertainment</label><br><br>
+          <label><input type= "checkbox" name="purpose" value="Merchandise">Merchandise</label><br><br>
+          <label><input type= "checkbox" name="purpose" value="Education">Education</label><br><br></div>
+     <div><p>Leave some comments or suggestions</p><br>
+       <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea></div>
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+      
+     
+    </form></main>
+<!-- partial -->
+  
+</body>
+</html>
